@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>liamyfrankporsiempre</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #d5f5e3; /* verde pastel */
+      color: #333;
+    }
+    header {
+      background-color: #a2d9ce;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #2e4053;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #fefefe;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      color: #117864;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .entry {
+      background-color: #ffffff;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .entry img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .tape {
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      background: rgba(255,255,255,0.7);
+      transform: rotate(-10deg);
+      top: -10px;
+      left: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Recuerdos</h1>
+  </header>
+  <nav>
+    <a href=\"#cartas\">Cartas</a>
+    <a href=\"#dibujos\">Dibujos</a>
+    <a href=\"#momentos\">Momentos</a>
+  </nav>
+
+  <section id=\"cartas\">
+    <h2>Cartas</h2>
+    <div class=\"entry\">
+      <div class=\"tape\"></div>
+      <p>Querido Frank, hoy pensé en lo mucho que significas para mí...</p>
+    </div>
+  </section>
+
+  <section id=\"dibujos\">
+    <h2>Dibujos</h2>
+    <div class=\"entry\">
+      <div class=\"tape\"></div>
+      <img src=\"tu-dibujo-aqui.jpg\" alt=\"Dibujo hecho por Liam\">
+    </div>
+  </section>
+
+  <section id=\"momentos\">
+    <h2>Momentos</h2>
+    <div class=\"entry\">
+      <div class=\"tape\"></div>
+      <p>Ese día en el parque cuando llovió y nos reímos como niños...</p>
+    </div>
+  </section>
+</body>
+</html>
